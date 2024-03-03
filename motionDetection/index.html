@@ -1,0 +1,27 @@
+<head>
+    <title>Hackathon - Thomas K</title>
+    <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/41958370?s=280&v=4">
+</head>
+<body>
+    <h1>Motion Detection with HTML5 Canvas and Processing</h1>
+    <p id="text"></p>
+    <button onclick="bw()">Black and White</button>
+    <button onclick="ro()">Red Overlay</button>
+    <div style="display:grid;grid-template-columns:480px 480px ;grid-template-rows:200px calc(100vh - 400px);height:100vh" id="gridCont">
+        
+        
+        <iframe width="480" height="280" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2454062/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=20&type=line&yaxismax=1&yaxismin=0"></iframe>
+        
+
+        <iframe width="480" height="280" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2454062/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=20&type=line&yaxismax=.1&yaxismin=0"></iframe>
+
+
+        
+
+
+
+
+        <script src="p5.min.js"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
